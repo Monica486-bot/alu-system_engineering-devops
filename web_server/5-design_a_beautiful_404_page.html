@@ -1,13 +1,76 @@
+<!-- /var/www/html/5-design_a_beautiful_404_page.html -->
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>404 Not Found</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f7f7f7;
+            color: #333;
+            text-align: center;
+            padding: 50px;
+        }
+
+        h1 {
+            font-size: 6em;
+            color: #ff6347;
+            margin-bottom: 20px;
+        }
+
+        p {
+            font-size: 1.5em;
+            color: #555;
+            margin-bottom: 40px;
+        }
+
+        .message {
+            font-size: 1.2em;
+            color: #888;
+            margin-bottom: 50px;
+        }
+
+        .button {
+            background-color: #ff6347;
+            color: white;
+            font-size: 1.2em;
+            padding: 15px 30px;
+            border: none;
+            border-radius: 5px;
+            text-decoration: none;
+            transition: background-color 0.3s;
+        }
+
+        .button:hover {
+            background-color: #ff4500;
+        }
+
+        .image {
+            margin-top: 30px;
+        }
+
+        .footer {
+            font-size: 0.8em;
+            color: #aaa;
+            margin-top: 60px;
+        }
+    </style>
 </head>
 <body>
-    <p><span style="background-color: red">Ceci n'est pas une page</span></p>
-
+    <h1>404</h1>
+    <p>Ceci n'est pas une page</p>
+    <div class="message">
+        <p>Oops! Looks like you've landed in the wrong place. The page you're looking for doesn't exist.</p>
+    </div>
+    <a href="/" class="button">Go Back Home</a>
+    <div class="image">
+        <img src="https://example.com/your-image.jpg" alt="Creative Image" width="300px" />
+        <p>Get creative with your 404 page!</p>
+    </div>
+    <div class="footer">
+        <p>Made with love by MONICA AKOI</p>
+    </div>
 </body>
 </html>
